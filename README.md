@@ -1,5 +1,5 @@
 # Python Scaling Tool
-Python command line program for scalling all images in folder to specific size.
+Python command line program for scaling all images in folder to specific size.
 
 ## Usage
 ```bash
