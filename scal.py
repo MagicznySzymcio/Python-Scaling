@@ -4,7 +4,7 @@ import argparse
 
 
 def parser_config():
-    parser = argparse.ArgumentParser(description='Szpko resizuje Gyate.')
+    parser = argparse.ArgumentParser(description='Python command line program for scalling all images in folder to specific size.')
     parser.add_argument('path', type=str, help='Path to image folder')
     parser.add_argument('--size', type=int, default=512, help='Target size of image (default: 512)')
     args = parser.parse_args()
